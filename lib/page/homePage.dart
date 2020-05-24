@@ -42,7 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          Navigator.pushNamed(context, '/textDemo');
+          _incrementCounter();
         },
         tooltip: 'Increment',
         child: Icon(Icons.add),
@@ -50,10 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
       bottomNavigationBar: BottomAppBar(
         color: Colors.white,
         child: Row(
-          children: [
-            IconButton(icon: Icon(Icons.home)),
-            IconButton(icon: Icon(Icons.business)),
-          ],
+          children: [],
           mainAxisAlignment: MainAxisAlignment.spaceAround, //均分底部导航栏横向空间
         ),
       ),

@@ -55,6 +55,48 @@ class _DemoEntryState extends State<DemoEntry>
               Navigator.pushNamed(context, '/containerDemo');
             },
           ),
+          RaisedButton(
+            child: Text("Row Demo"),
+            onPressed: () {
+              Navigator.pushNamed(context, '/rowDemo');
+            },
+          ),
+          RaisedButton(
+            child: Text("Column Demo"),
+            onPressed: () {
+              Navigator.pushNamed(context, '/columnDemo');
+            },
+          ),
+          RaisedButton(
+            child: Text("Stack Demo"),
+            onPressed: () {
+              Navigator.pushNamed(context, '/stackPositionedDemo');
+            },
+          ),
+          RaisedButton(
+            child: Text("ListView Demo"),
+            onPressed: () {
+              Navigator.pushNamed(context, '/listViewDemo');
+            },
+          ),
+          RaisedButton(
+            child: Text("GridView Demo"),
+            onPressed: () {
+              Navigator.pushNamed(context, '/gridViewDemo');
+            },
+          ),
+          RaisedButton(
+            child: Text("customScrollView Demo"),
+            onPressed: () {
+              Navigator.pushNamed(context, '/customScrollViewDemo');
+            },
+          ),
+          RaisedButton(
+            child: Text("HttpDemo Demo"),
+            onPressed: () {
+              Navigator.pushNamed(context, '/httpDemoDemo');
+            },
+          ),
         ],
       ),
     );
